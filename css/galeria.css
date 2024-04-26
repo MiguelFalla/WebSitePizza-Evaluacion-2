@@ -1,0 +1,19 @@
+.gallery {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .carousel img {
+    flex: 0 0 auto;
+    width: 100%;
+    scroll-snap-align: start;
+  }
+  
+  /* Opcional: Agregar estilos adicionales según sea necesario */
+  
